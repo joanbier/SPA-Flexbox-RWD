@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Sriracha&display=swap&subset=latin-ext");
+
+$default-font: "Roboto",
+sans-serif;
+$special-font: "Sriracha",
+"Roboto",
+arial,
+"sans-serif";
+$nav-color: rgb(34, 34, 34);
+$main-color: rgba(221, 221, 221, 0.781);
+
+// piker from logo
+$bcg-color-logo: #a0f6d2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-family: $default-font;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: $main-color;
+}
+
+@import "1-nav";
+@import '2-banner';
+@import '3-main-articles';
+@import '4-adopt';
+@import '5-footer';

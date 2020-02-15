@@ -1,0 +1,34 @@
+.footer {
+    margin: 0 auto;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.362);
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        list-style: none;
+    }
+
+    &__item {
+        display: block;
+        font-size: 1rem;
+        margin: 10px;
+
+        @media (max-width: 500px) {
+            font-size: 0.7rem;
+        }
+    }
+
+    &__link {
+        padding: 10px 5px;
+        text-decoration: none;
+        border-bottom: none;
+        color: black;
+
+        &:hover {
+            color: wheat;
+        }
+    }
+}
